@@ -97,6 +97,7 @@ To access a route from a control like a button you need to use the `restlite.set
 
 ##### Making a REST call
 This can be easily done by using the `restlite.rest()` function, it takes 5 parameters :
+
 1. The URL
 2. The Method (GET, POST, PUT or DELETE)
 3. The Data to send (needs to be a JSON format)
