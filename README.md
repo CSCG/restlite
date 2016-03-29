@@ -1,5 +1,6 @@
 # RestLite.js
 A JavaScript Microframework to make Single Page Applications (SPAs) using RESTful APIs
+Totally written in vanilla JS and 100% unobtrusive.
 
 ### Getting started
 To use restlite.js you simply need to add it in your HTML page :
@@ -118,7 +119,7 @@ restlite.rest('/api/test', 'GET', {}, function(json) {
 This is a GET example, so you can notice the **{}** because no data needs to be sent. 
 You can also set that parameter to **undefined** or **null**. 
 
-If you don't need one of the callback function or both of them you can simply write **function(){}**
+If you don't need one of the callback function or both of them you can simply write `function(){}`.
 
 ### Compatibility
 RestLite.js is using HTML5 `history.pushState()` which is **not compatible with IE 9 and older** versions
