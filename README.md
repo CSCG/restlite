@@ -117,8 +117,8 @@ restlite.rest('/api/test', 'GET', {}, function(json) {
 };
 ```
 
-This is a GET example, so you can notice the **{}** because no data needs to be sent. 
-You can also set that parameter to **undefined** or **null**. 
+This is a GET example, so you can notice the `{}` because no data needs to be sent. 
+You can also set that parameter to `undefined` or `null`. 
 
 If you don't need one of the callback function or both of them you can simply write `function(){}`.
 
