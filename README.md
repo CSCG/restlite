@@ -1,5 +1,6 @@
 # RestLite.js
 A JavaScript Microframework to make Single Page Applications (SPAs) using RESTful APIs
+
 Totally written in vanilla JS and 100% unobtrusive.
 
 ### Getting started
